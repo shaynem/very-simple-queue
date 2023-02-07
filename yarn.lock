@@ -1513,7 +1513,7 @@ lodash.truncate@^4.4.2:
   resolved "https://registry.yarnpkg.com/lodash.truncate/-/lodash.truncate-4.4.2.tgz#5a350da0b1113b837ecfffd5812cbe58d6eae193"
   integrity sha1-WjUNoLERO4N+z//VgSy+WNbq4ZM=
 
-lodash@^4.17.15, lodash@^4.17.21:
+lodash@^4.17.21:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
@@ -1928,10 +1928,10 @@ punycode@^2.1.0:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
-quibble@^0.6.7:
-  version "0.6.8"
-  resolved "https://registry.yarnpkg.com/quibble/-/quibble-0.6.8.tgz#cd7d485e5fd985217b8f064596523a3ee554ec00"
-  integrity sha512-HQ89ZADQ4uZjyePn1yACZADE3OUQ16Py5gkVxcoPvV6IRiItAgGMBkeQ5f1rOnnnsVKccMdhic0xABd7+cY/jA==
+quibble@^0.6.14:
+  version "0.6.15"
+  resolved "https://registry.yarnpkg.com/quibble/-/quibble-0.6.15.tgz#6ceed62084a4ca60cbda94c796763bcde9c5093c"
+  integrity sha512-AKUMjlGPigm6slA3eXsTiCHg1ZRwzdsggUKCu8Ko6XyauPfkkBPOXbvdxwhPmC5GD/BtDXLEiPV9cV9xt+as1w==
   dependencies:
     lodash "^4.17.21"
     resolve "^1.20.0"
@@ -2147,10 +2147,10 @@ sprintf-js@~1.0.2:
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
   integrity sha1-BOaSb2YolTVPPdAVIDYzuFcpfiw=
 
-sqlite3@^5.0.3:
-  version "5.0.4"
-  resolved "https://registry.yarnpkg.com/sqlite3/-/sqlite3-5.0.4.tgz#3ddff8d360dab3f17c596690d8663f353d876187"
-  integrity sha512-ATvAe7JutFv/d+KTbLS58KsKn/t1raL/WGn2qZfZxwsrL/oGSP+0OlbQ2tX5jISvyu6/7JuKze3WkaiP1JAH6A==
+"sqlite3@https://github.com/TryGhost/node-sqlite3":
+  version "5.1.4"
+  uid c1440bdaa47ffdda852ff576ac543114c4f0fb4b
+  resolved "https://github.com/TryGhost/node-sqlite3#c1440bdaa47ffdda852ff576ac543114c4f0fb4b"
   dependencies:
     "@mapbox/node-pre-gyp" "^1.0.0"
     node-addon-api "^4.2.0"
@@ -2320,12 +2320,12 @@ tar@^6.0.2, tar@^6.1.11, tar@^6.1.2:
     yallist "^4.0.0"
 
 testdouble@^3.16.0:
-  version "3.16.5"
-  resolved "https://registry.yarnpkg.com/testdouble/-/testdouble-3.16.5.tgz#4e51407b56f542b8cb57c485fff87248eb24d66d"
-  integrity sha512-2/0vR503/X/6LuZzQObpcBtu+KycyEnw7AdX/NPboR7sam1NTuYc128UMW8n7tBDpOPGAKqCUtKVBzvgV6C3bA==
+  version "3.16.8"
+  resolved "https://registry.yarnpkg.com/testdouble/-/testdouble-3.16.8.tgz#9c761031f3693d973c726e31a60ee73cd2871c96"
+  integrity sha512-jOKYRJ9mfgDxwuUOj84sl9DWiP1+KpHcgnhjlSHC8h1ZxJT3KD1FAAFVqnqmmyrzc/+0DRbI/U5xo1/K3PLi8w==
   dependencies:
-    lodash "^4.17.15"
-    quibble "^0.6.7"
+    lodash "^4.17.21"
+    quibble "^0.6.14"
     stringify-object-es5 "^2.5.0"
     theredoc "^1.0.0"
 
